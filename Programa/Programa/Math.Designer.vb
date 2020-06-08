@@ -37,6 +37,17 @@ Partial Class Math
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.bcuad = New System.Windows.Forms.Button()
+        Me.Bcubo = New System.Windows.Forms.Button()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Bborar = New System.Windows.Forms.Button()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -109,7 +120,7 @@ Partial Class Math
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(222, 87)
+        Me.Label2.Location = New System.Drawing.Point(236, 54)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(0, 24)
         Me.Label2.TabIndex = 7
@@ -118,7 +129,7 @@ Partial Class Math
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(394, 87)
+        Me.Label3.Location = New System.Drawing.Point(408, 54)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(24, 25)
         Me.Label3.TabIndex = 8
@@ -127,7 +138,7 @@ Partial Class Math
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(476, 70)
+        Me.Label4.Location = New System.Drawing.Point(490, 37)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(31, 13)
         Me.Label4.TabIndex = 9
@@ -136,7 +147,7 @@ Partial Class Math
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(138, 70)
+        Me.Label5.Location = New System.Drawing.Point(152, 37)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(40, 13)
         Me.Label5.TabIndex = 10
@@ -145,7 +156,7 @@ Partial Class Math
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(297, 70)
+        Me.Label6.Location = New System.Drawing.Point(311, 37)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(40, 13)
         Me.Label6.TabIndex = 11
@@ -153,14 +164,14 @@ Partial Class Math
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(100, 87)
+        Me.TextBox1.Location = New System.Drawing.Point(114, 54)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 12
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(269, 88)
+        Me.TextBox2.Location = New System.Drawing.Point(283, 55)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 13
@@ -168,16 +179,125 @@ Partial Class Math
         'TextBox3
         '
         Me.TextBox3.Enabled = False
-        Me.TextBox3.Location = New System.Drawing.Point(444, 88)
+        Me.TextBox3.Location = New System.Drawing.Point(458, 55)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 14
+        '
+        'bcuad
+        '
+        Me.bcuad.Location = New System.Drawing.Point(683, 181)
+        Me.bcuad.Name = "bcuad"
+        Me.bcuad.Size = New System.Drawing.Size(96, 22)
+        Me.bcuad.TabIndex = 15
+        Me.bcuad.Text = "Cuadrado"
+        Me.bcuad.UseVisualStyleBackColor = True
+        '
+        'Bcubo
+        '
+        Me.Bcubo.Location = New System.Drawing.Point(683, 209)
+        Me.Bcubo.Name = "Bcubo"
+        Me.Bcubo.Size = New System.Drawing.Size(96, 22)
+        Me.Bcubo.TabIndex = 16
+        Me.Bcubo.Text = "Cubo"
+        Me.Bcubo.UseVisualStyleBackColor = True
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(114, 187)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox4.TabIndex = 17
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(311, 190)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(0, 24)
+        Me.Label7.TabIndex = 18
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(408, 187)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(24, 25)
+        Me.Label8.TabIndex = 19
+        Me.Label8.Text = "="
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Enabled = False
+        Me.TextBox5.Location = New System.Drawing.Point(458, 187)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox5.TabIndex = 20
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(155, 168)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(31, 13)
+        Me.Label9.TabIndex = 21
+        Me.Label9.Text = "Valor"
+        '
+        'Bborar
+        '
+        Me.Bborar.Location = New System.Drawing.Point(683, 296)
+        Me.Bborar.Name = "Bborar"
+        Me.Bborar.Size = New System.Drawing.Size(96, 23)
+        Me.Bborar.TabIndex = 22
+        Me.Bborar.Text = "Borrar"
+        Me.Bborar.UseVisualStyleBackColor = True
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(493, 168)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(31, 13)
+        Me.Label10.TabIndex = 23
+        Me.Label10.Text = "Total"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(683, 238)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(96, 23)
+        Me.Button1.TabIndex = 24
+        Me.Button1.Text = " Raiz ^2"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(683, 267)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(96, 23)
+        Me.Button2.TabIndex = 25
+        Me.Button2.Text = "Raiz ^3"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Math
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.ClientSize = New System.Drawing.Size(800, 448)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Bborar)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Bcubo)
+        Me.Controls.Add(Me.bcuad)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
@@ -215,4 +335,15 @@ Partial Class Math
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents bcuad As Button
+    Friend WithEvents Bcubo As Button
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Bborar As Button
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
