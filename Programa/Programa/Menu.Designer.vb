@@ -28,6 +28,7 @@ Partial Class Menu
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label0 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -87,12 +88,22 @@ Partial Class Menu
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(628, 188)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(127, 49)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "Tabla Periodica"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightSkyBlue
         Me.ClientSize = New System.Drawing.Size(919, 540)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label0)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -113,4 +124,5 @@ Partial Class Menu
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label0 As Label
+    Friend WithEvents Button2 As Button
 End Class

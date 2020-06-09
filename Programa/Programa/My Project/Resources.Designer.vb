@@ -69,5 +69,42 @@ Namespace My.Resources
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property MOUSE_CLICK() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("MOUSE_CLICK", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property OBI_WAN_HELLO_THERE() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("OBI_WAN_HELLO_THERE", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property TO_BE_CONTINUED() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("TO_BE_CONTINUED", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property TO_BE_CONTINUED1() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("TO_BE_CONTINUED1", resourceCulture)
+            End Get
+        End Property
     End Module
 End Namespace

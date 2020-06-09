@@ -73,6 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseElementosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BaseElementosDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Math.Designer.vb">
       <DependentUpon>Math.vb</DependentUpon>
     </Compile>
@@ -101,6 +106,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Tabla_Periodica.Designer.vb">
+      <DependentUpon>Tabla_Periodica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tabla_Periodica.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Math.resx">
@@ -115,8 +126,22 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tabla_Periodica.resx">
+      <DependentUpon>Tabla_Periodica.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BaseElementosDataSet.xsc">
+      <DependentUpon>BaseElementosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BaseElementosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BaseElementosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BaseElementosDataSet.xss">
+      <DependentUpon>BaseElementosDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -130,6 +155,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TO BE CONTINUED.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TO-BE-CONTINUED.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBI-WAN-HELLO-THERE.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MOUSE-CLICK.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

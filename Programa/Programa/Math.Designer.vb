@@ -48,12 +48,28 @@ Partial Class Math
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.btmul = New System.Windows.Forms.Button()
+        Me.btdi = New System.Windows.Forms.Button()
+        Me.btsum = New System.Windows.Forms.Button()
+        Me.btre = New System.Windows.Forms.Button()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.btboa = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(13, 425)
+        Me.Label1.Location = New System.Drawing.Point(12, 617)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(92, 13)
         Me.Label1.TabIndex = 0
@@ -62,7 +78,7 @@ Partial Class Math
         'btnregresar
         '
         Me.btnregresar.BackColor = System.Drawing.Color.Red
-        Me.btnregresar.Location = New System.Drawing.Point(704, 415)
+        Me.btnregresar.Location = New System.Drawing.Point(1159, 612)
         Me.btnregresar.Name = "btnregresar"
         Me.btnregresar.Size = New System.Drawing.Size(75, 23)
         Me.btnregresar.TabIndex = 1
@@ -281,12 +297,163 @@ Partial Class Math
         Me.Button2.Text = "Raiz ^3"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'btmul
+        '
+        Me.btmul.Location = New System.Drawing.Point(1159, 11)
+        Me.btmul.Name = "btmul"
+        Me.btmul.Size = New System.Drawing.Size(75, 23)
+        Me.btmul.TabIndex = 26
+        Me.btmul.Text = "Multiplicar"
+        Me.btmul.UseVisualStyleBackColor = True
+        '
+        'btdi
+        '
+        Me.btdi.Location = New System.Drawing.Point(1159, 41)
+        Me.btdi.Name = "btdi"
+        Me.btdi.Size = New System.Drawing.Size(75, 23)
+        Me.btdi.TabIndex = 27
+        Me.btdi.Text = "Dividir"
+        Me.btdi.UseVisualStyleBackColor = True
+        '
+        'btsum
+        '
+        Me.btsum.Location = New System.Drawing.Point(1159, 71)
+        Me.btsum.Name = "btsum"
+        Me.btsum.Size = New System.Drawing.Size(75, 23)
+        Me.btsum.TabIndex = 28
+        Me.btsum.Text = "Sumar"
+        Me.btsum.UseVisualStyleBackColor = True
+        '
+        'btre
+        '
+        Me.btre.Location = New System.Drawing.Point(1159, 99)
+        Me.btre.Name = "btre"
+        Me.btre.Size = New System.Drawing.Size(75, 23)
+        Me.btre.TabIndex = 29
+        Me.btre.Text = "Restar"
+        Me.btre.UseVisualStyleBackColor = True
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(834, 46)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(57, 20)
+        Me.TextBox6.TabIndex = 30
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(834, 73)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(57, 20)
+        Me.TextBox7.TabIndex = 31
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(954, 46)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(55, 20)
+        Me.TextBox8.TabIndex = 32
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(954, 75)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(55, 20)
+        Me.TextBox9.TabIndex = 33
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Enabled = False
+        Me.TextBox10.Location = New System.Drawing.Point(1061, 46)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(51, 20)
+        Me.TextBox10.TabIndex = 34
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Enabled = False
+        Me.TextBox11.Location = New System.Drawing.Point(1061, 73)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(51, 20)
+        Me.TextBox11.TabIndex = 35
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(1024, 57)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(21, 24)
+        Me.Label11.TabIndex = 36
+        Me.Label11.Text = "="
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(914, 55)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(0, 24)
+        Me.Label12.TabIndex = 37
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.Location = New System.Drawing.Point(824, 57)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(73, 13)
+        Me.Label13.TabIndex = 38
+        Me.Label13.Text = "___________"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.Color.Transparent
+        Me.Label14.Location = New System.Drawing.Point(945, 59)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(73, 13)
+        Me.Label14.TabIndex = 39
+        Me.Label14.Text = "___________"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Location = New System.Drawing.Point(1051, 57)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(73, 13)
+        Me.Label15.TabIndex = 40
+        Me.Label15.Text = "___________"
+        '
+        'btboa
+        '
+        Me.btboa.Location = New System.Drawing.Point(1159, 129)
+        Me.btboa.Name = "btboa"
+        Me.btboa.Size = New System.Drawing.Size(75, 23)
+        Me.btboa.TabIndex = 41
+        Me.btboa.Text = "Borrar"
+        Me.btboa.UseVisualStyleBackColor = True
+        '
         'Math
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.ClientSize = New System.Drawing.Size(800, 448)
+        Me.ClientSize = New System.Drawing.Size(1246, 647)
+        Me.Controls.Add(Me.btboa)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.TextBox11)
+        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.TextBox9)
+        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.btre)
+        Me.Controls.Add(Me.btsum)
+        Me.Controls.Add(Me.btdi)
+        Me.Controls.Add(Me.btmul)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label10)
@@ -313,6 +480,9 @@ Partial Class Math
         Me.Controls.Add(Me.btnsum)
         Me.Controls.Add(Me.btnregresar)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label15)
         Me.Name = "Math"
         Me.Text = "Math"
         Me.ResumeLayout(False)
@@ -346,4 +516,20 @@ Partial Class Math
     Friend WithEvents Label10 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents btmul As Button
+    Friend WithEvents btdi As Button
+    Friend WithEvents btsum As Button
+    Friend WithEvents btre As Button
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents btboa As Button
 End Class
