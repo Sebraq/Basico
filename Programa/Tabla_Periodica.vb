@@ -47,4 +47,10 @@
         nom = Val(InputBox("Ingrese el nombre", "Busqueda nombre", "Ingrese el nombre"))
         Me.ElementosTableAdapter.BuscarNombre(Me.BaseElementosDataSet.Elementos, nom)
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
+        Form1.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -209,4 +209,10 @@
         TextBox11.Clear()
         Label12.Text = ""
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
+        Form1.Show()
+        Me.Hide()
+    End Sub
 End Class

@@ -64,6 +64,7 @@ Partial Class Math
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.btboa = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -435,12 +436,22 @@ Partial Class Math
         Me.btboa.Text = "Borrar"
         Me.btboa.UseVisualStyleBackColor = True
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(1078, 614)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 21)
+        Me.Button3.TabIndex = 42
+        Me.Button3.Text = "Regresar"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'Math
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightSkyBlue
         Me.ClientSize = New System.Drawing.Size(1246, 647)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.btboa)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
@@ -532,4 +543,5 @@ Partial Class Math
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents btboa As Button
+    Friend WithEvents Button3 As Button
 End Class

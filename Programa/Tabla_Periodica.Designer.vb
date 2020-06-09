@@ -43,6 +43,7 @@ Partial Class Tabla_Periodica
         Me.b6 = New System.Windows.Forms.Button()
         Me.ElementosTableAdapter = New Programa.BaseElementosDataSetTableAdapters.ElementosTableAdapter()
         Me.TableAdapterManager = New Programa.BaseElementosDataSetTableAdapters.TableAdapterManager()
+        Me.Button1 = New System.Windows.Forms.Button()
         Numero_AtomicoLabel = New System.Windows.Forms.Label()
         Peso_AtomicoLabel = New System.Windows.Forms.Label()
         SimboloLabel = New System.Windows.Forms.Label()
@@ -216,12 +217,22 @@ Partial Class Tabla_Periodica
         Me.TableAdapterManager.ElementosTableAdapter = Me.ElementosTableAdapter
         Me.TableAdapterManager.UpdateOrder = Programa.BaseElementosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(912, 600)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "Regresar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Tabla_Periodica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.ClientSize = New System.Drawing.Size(1104, 651)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.b6)
         Me.Controls.Add(Me.b5)
         Me.Controls.Add(Me.b4)
@@ -263,4 +274,5 @@ Partial Class Tabla_Periodica
     Friend WithEvents b4 As Button
     Friend WithEvents b5 As Button
     Friend WithEvents b6 As Button
+    Friend WithEvents Button1 As Button
 End Class
