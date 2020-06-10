@@ -117,35 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Doge_Meme_PNG_Picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Doge-Meme-PNG-Picture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DOG_BARK_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DOG-BARK_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="E" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IM_FAST_AS_F____BOI" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IM-FAST-AS-F...-BOI.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MOUSE_CLICK" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MOUSE-CLICK.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="OBI_WAN_HELLO_THERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OBI-WAN-HELLO-THERE.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tgy4a5n8i9a41" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tgy4a5n8i9a41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TO_BE_CONTINUED1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TO-BE-CONTINUED.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="WHY_ARE_YOU_RUNNING__WITH_WOMAN_SCREAMING_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WHY-ARE-YOU-RUNNING-_WITH-WOMAN-SCREAMING_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
 </root>

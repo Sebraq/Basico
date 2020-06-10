@@ -17,4 +17,18 @@
         End
 
     End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        My.Computer.Audio.Play(My.Resources.DOG_BARK_1, AudioPlayMode.Background)
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        My.Computer.Audio.Play(My.Resources.IM_FAST_AS_F____BOI, AudioPlayMode.Background)
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
+        Conversiones.Show()
+        Me.Hide()
+    End Sub
 End Class

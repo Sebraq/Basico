@@ -78,6 +78,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BaseElementosDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Conversiones.Designer.vb">
+      <DependentUpon>Conversiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Conversiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
@@ -113,6 +119,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Conversiones.resx">
+      <DependentUpon>Conversiones.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -156,9 +165,6 @@
     <None Include="Resources\E.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\TO BE CONTINUED.mp3" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\TO-BE-CONTINUED.wav" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +172,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MOUSE-CLICK.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doge.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\328700635008211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4p0lq0qlv1941.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doge-Meme-PNG-Picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tgy4a5n8i9a41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DOG-BARK_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IM-FAST-AS-F...-BOI.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHY-ARE-YOU-RUNNING-_WITH-WOMAN-SCREAMING_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
