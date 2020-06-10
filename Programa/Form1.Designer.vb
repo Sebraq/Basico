@@ -29,6 +29,7 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.becono = New System.Windows.Forms.Button()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -100,12 +101,22 @@ Partial Class Form1
         Me.Button4.Text = "Conversiones"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'becono
+        '
+        Me.becono.Location = New System.Drawing.Point(138, 108)
+        Me.becono.Name = "becono"
+        Me.becono.Size = New System.Drawing.Size(76, 39)
+        Me.becono.TabIndex = 7
+        Me.becono.Text = "Economia"
+        Me.becono.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightSkyBlue
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.becono)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
@@ -129,4 +140,5 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents becono As Button
 End Class

@@ -44,6 +44,7 @@ Partial Class Tabla_Periodica
         Me.ElementosTableAdapter = New Programa.BaseElementosDataSetTableAdapters.ElementosTableAdapter()
         Me.TableAdapterManager = New Programa.BaseElementosDataSetTableAdapters.TableAdapterManager()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Numero_AtomicoLabel = New System.Windows.Forms.Label()
         Peso_AtomicoLabel = New System.Windows.Forms.Label()
         SimboloLabel = New System.Windows.Forms.Label()
@@ -191,18 +192,18 @@ Partial Class Tabla_Periodica
         '
         'b5
         '
-        Me.b5.Location = New System.Drawing.Point(438, 340)
+        Me.b5.Location = New System.Drawing.Point(426, 346)
         Me.b5.Name = "b5"
-        Me.b5.Size = New System.Drawing.Size(75, 41)
+        Me.b5.Size = New System.Drawing.Size(75, 50)
         Me.b5.TabIndex = 15
-        Me.b5.Text = "Buscar por numero"
+        Me.b5.Text = "Buscarpor Numero Atomico"
         Me.b5.UseVisualStyleBackColor = True
         '
         'b6
         '
-        Me.b6.Location = New System.Drawing.Point(547, 340)
+        Me.b6.Location = New System.Drawing.Point(507, 346)
         Me.b6.Name = "b6"
-        Me.b6.Size = New System.Drawing.Size(75, 41)
+        Me.b6.Size = New System.Drawing.Size(75, 50)
         Me.b6.TabIndex = 16
         Me.b6.Text = "Buscar por nombre"
         Me.b6.UseVisualStyleBackColor = True
@@ -226,12 +227,22 @@ Partial Class Tabla_Periodica
         Me.Button1.Text = "Regresar"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(603, 346)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 50)
+        Me.Button2.TabIndex = 18
+        Me.Button2.Text = "Salir busqueda"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Tabla_Periodica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSeaGreen
         Me.ClientSize = New System.Drawing.Size(1104, 651)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.b6)
         Me.Controls.Add(Me.b5)
@@ -275,4 +286,5 @@ Partial Class Tabla_Periodica
     Friend WithEvents b5 As Button
     Friend WithEvents b6 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class

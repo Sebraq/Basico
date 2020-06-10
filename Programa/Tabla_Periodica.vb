@@ -39,18 +39,21 @@
 
     Private Sub b5_Click(sender As Object, e As EventArgs) Handles b5.Click
         num = Val(InputBox("Ingrese el Numero Atomico", "Busqueda Numero Atomico", "Ingrese el numero"))
-        Me.ElementosTableAdapter.BuscarAtomico(Me.BaseElementosDataSet.Elementos, num)
-
+        Me.ElementosTableAdapter.PornumeroAtomico(Me.BaseElementosDataSet.Elementos, num)
     End Sub
 
     Private Sub b6_Click(sender As Object, e As EventArgs) Handles b6.Click
-        nom = Val(InputBox("Ingrese el nombre", "Busqueda nombre", "Ingrese el nombre"))
-        Me.ElementosTableAdapter.BuscarNombre(Me.BaseElementosDataSet.Elementos, nom)
+        nom = InputBox("Ingrese el nombre", "Busqueda nombre", "Ingrese el nombre")
+        Me.ElementosTableAdapter.PorNombre(Me.BaseElementosDataSet.Elementos, nom)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
         Form1.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.ElementosTableAdapter.Fill(Me.BaseElementosDataSet.Elementos)
     End Sub
 End Class

@@ -31,4 +31,10 @@
         Conversiones.Show()
         Me.Hide()
     End Sub
+
+    Private Sub becono_Click(sender As Object, e As EventArgs) Handles becono.Click
+        My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
+        economia.Show()
+        Me.Hide()
+    End Sub
 End Class

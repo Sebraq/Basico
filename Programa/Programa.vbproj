@@ -84,6 +84,12 @@
     <Compile Include="Conversiones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="economia.Designer.vb">
+      <DependentUpon>economia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="economia.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
@@ -121,6 +127,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Conversiones.resx">
       <DependentUpon>Conversiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="economia.resx">
+      <DependentUpon>economia.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -199,6 +208,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KA-CHING.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseElementos.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Y-U-ALWAYS-LYING.wav" />
+    <None Include="Resources\SAY-HELLO-TO-MY-LITTLE-FRIEND.wav" />
+    <None Include="Resources\workspace_128-07-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
