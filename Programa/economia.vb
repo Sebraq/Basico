@@ -83,10 +83,11 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        If TextBox1.Text And TextBox3.Text = "" Then
+
+        If TextBox1.Text & TextBox3.Text = "" Then
             MsgBox("Tiene que ingresar una cantidad del producto")
             Return
-        ElseIf Not IsNumeric(TextBox1.Text And TextBox3.Text) Then
+        ElseIf Not IsNumeric(TextBox1.Text & TextBox3.Text) Then
             MsgBox("Ingrese una cantidad numerica")
             Return
         ElseIf TextBox2.Text = "" Then
@@ -94,17 +95,19 @@
             Return
         Else
             ListBox1.Items.Add(TextBox1.Text)
-            ListBox2.Items.Add(TextBox2.Text)
-            ListBox3.Items.Add(TextBox3.Text)
-            subto = Val(TextBox1.Text) * Val(TextBox3.Text)
-            ListBox4.Items.Add(subto)
-            total = total + subto
-            TextBox4.Text = total
+                ListBox2.Items.Add(TextBox2.Text)
+                ListBox3.Items.Add(TextBox3.Text)
+                subto = Val(TextBox1.Text) * Val(TextBox3.Text)
+                ListBox4.Items.Add(subto)
+                total = total + subto
+                TextBox4.Text = total
 
-            TextBox1.Text = ""
-            TextBox2.Text = ""
-            TextBox3.Text = ""
-            Me.TextBox1.Focus()
-        End If
+                TextBox1.Text = ""
+                TextBox2.Text = ""
+                TextBox3.Text = ""
+                Me.TextBox1.Focus()
+            End If
+
+
     End Sub
 End Class
