@@ -215,4 +215,12 @@
         Form1.Show()
         Me.Hide()
     End Sub
+
+    Private Sub LineShape1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+
+    End Sub
 End Class

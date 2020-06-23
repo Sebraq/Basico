@@ -22,6 +22,7 @@ Partial Class Math
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim RectangleShape3 As Microsoft.VisualBasic.PowerPacks.RectangleShape
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnregresar = New System.Windows.Forms.Button()
         Me.btnsum = New System.Windows.Forms.Button()
@@ -65,6 +66,10 @@ Partial Class Math
         Me.Label15 = New System.Windows.Forms.Label()
         Me.btboa = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
+        Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.RectangleShape2 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        RectangleShape3 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.SuspendLayout()
         '
         'Label1
@@ -221,7 +226,7 @@ Partial Class Math
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(114, 187)
+        Me.TextBox4.Location = New System.Drawing.Point(114, 238)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 17
@@ -230,7 +235,7 @@ Partial Class Math
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(311, 190)
+        Me.Label7.Location = New System.Drawing.Point(311, 241)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(0, 24)
         Me.Label7.TabIndex = 18
@@ -239,7 +244,7 @@ Partial Class Math
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(408, 187)
+        Me.Label8.Location = New System.Drawing.Point(408, 238)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(24, 25)
         Me.Label8.TabIndex = 19
@@ -248,7 +253,7 @@ Partial Class Math
         'TextBox5
         '
         Me.TextBox5.Enabled = False
-        Me.TextBox5.Location = New System.Drawing.Point(458, 187)
+        Me.TextBox5.Location = New System.Drawing.Point(458, 238)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
         Me.TextBox5.TabIndex = 20
@@ -256,7 +261,7 @@ Partial Class Math
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(155, 168)
+        Me.Label9.Location = New System.Drawing.Point(155, 219)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(31, 13)
         Me.Label9.TabIndex = 21
@@ -274,7 +279,7 @@ Partial Class Math
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(493, 168)
+        Me.Label10.Location = New System.Drawing.Point(493, 219)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(31, 13)
         Me.Label10.TabIndex = 23
@@ -445,6 +450,34 @@ Partial Class Math
         Me.Button3.Text = "Regresar"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'ShapeContainer1
+        '
+        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
+        Me.ShapeContainer1.Name = "ShapeContainer1"
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {RectangleShape3, Me.RectangleShape2, Me.RectangleShape1})
+        Me.ShapeContainer1.Size = New System.Drawing.Size(1246, 647)
+        Me.ShapeContainer1.TabIndex = 43
+        Me.ShapeContainer1.TabStop = False
+        '
+        'RectangleShape1
+        '
+        Me.RectangleShape1.Location = New System.Drawing.Point(-1, 0)
+        Me.RectangleShape1.Name = "RectangleShape1"
+        Me.RectangleShape1.Size = New System.Drawing.Size(808, 156)
+        '
+        'RectangleShape2
+        '
+        Me.RectangleShape2.Location = New System.Drawing.Point(807, 0)
+        Me.RectangleShape2.Name = "RectangleShape2"
+        Me.RectangleShape2.Size = New System.Drawing.Size(438, 156)
+        '
+        'RectangleShape3
+        '
+        RectangleShape3.Location = New System.Drawing.Point(0, 157)
+        RectangleShape3.Name = "RectangleShape3"
+        RectangleShape3.Size = New System.Drawing.Size(807, 169)
+        '
         'Math
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -494,6 +527,7 @@ Partial Class Math
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.ShapeContainer1)
         Me.Name = "Math"
         Me.Text = "Math"
         Me.ResumeLayout(False)
@@ -544,4 +578,7 @@ Partial Class Math
     Friend WithEvents Label15 As Label
     Friend WithEvents btboa As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents ShapeContainer1 As PowerPacks.ShapeContainer
+    Friend WithEvents RectangleShape2 As PowerPacks.RectangleShape
+    Friend WithEvents RectangleShape1 As PowerPacks.RectangleShape
 End Class

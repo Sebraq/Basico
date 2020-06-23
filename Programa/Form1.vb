@@ -1,8 +1,7 @@
 ﻿Public Class Form1
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
-        Tabla_Periodica.Show()
-        Me.Hide()
+        Carga.Show()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -36,5 +35,19 @@
         My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
         economia.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Label2.Text = TimeOfDay
+        Label3.Text = DateString
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Start()
+
     End Sub
 End Class

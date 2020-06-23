@@ -60,12 +60,13 @@ Partial Class economia
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Crimson
         Me.Button1.Location = New System.Drawing.Point(861, 578)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Cerrar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '

@@ -95,7 +95,7 @@ Partial Class Tabla_Periodica
         '
         'bcerrar
         '
-        Me.bcerrar.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.bcerrar.BackColor = System.Drawing.Color.Crimson
         Me.bcerrar.Location = New System.Drawing.Point(993, 602)
         Me.bcerrar.Name = "bcerrar"
         Me.bcerrar.Size = New System.Drawing.Size(73, 21)
