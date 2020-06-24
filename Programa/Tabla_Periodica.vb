@@ -51,7 +51,7 @@
         My.Computer.Audio.Play(My.Resources.MOUSE_CLICK, AudioPlayMode.Background)
         Form1.Show()
         Me.Hide()
-        Carga.Refresh()
+        'carga.Refresh()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
